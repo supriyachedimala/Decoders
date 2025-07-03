@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+.flag{
+    margin: 30px auto;
+    height: 200px;
+    width: 300px;
+    box-shadow: -3px 3px 8px  3px rgba(0, 0, 0, 0.35);
+    
+}
+
+.safroon{
+    background-color: orangered;
+    width: 300px;
+    height: 70px;
+}
+.white{ 
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.green{
+    background-color: green;
+    width: 300px;
+    height: 70px;
+}
+.chakra{
+    width: 70px;
+    height: 70px;
+}
