@@ -1,0 +1,43 @@
+.container ul{
+    text-decoration: none;
+    background-color:gray;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  
+}
+.container ul>li{
+    text-decoration: none;
+    display: flex;
+    color:wheat;
+    font-size: large;
+}
+.container ul>li:hover{
+    color: chartreuse;
+}
+
+
+.container ul>li:nth-last-child(1){
+    color: black;
+}
+.container ul>li:nth-last-of-type(5){
+    color: chocolate;
+}
+h1::first-letter {
+    font-size:50px;
+}
+h1:hover::after{
+    content:"to  ";
+    color: red;
+}
+p::first-letter{
+    font-size: larger;
+    color: rgb(195, 255, 0);
+}
+p:hover{
+    color: blueviolet;
+}
+
