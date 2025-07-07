@@ -1,0 +1,25 @@
+.container{
+    color:gray;
+    height: 1000px;
+   
+    padding: 20px;
+    border: 20px solid  black;
+  
+    background-image: url(https://plantsguru.com/cdn/shop/files/plantsguru-flowering-plants-rose-red_13eb00f8-8047-4b73-bdd7-47483065a292.jpg?v=1735618037&width=1100);
+    background-size:contain ;
+    background-position:center;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+    border: dashed;
+}
+
+h1{
+    color: black;
+    font-size: large;
+    font-family: cursive;
+    margin: 0px;
+    background-position-x: right;
+    background-position: top;
+}
