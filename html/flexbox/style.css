@@ -1,0 +1,32 @@
+.container{
+    height: 300px;
+    width: 300px;
+    margin: 50% top;
+    border:10px solid bisque;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+    background-size: contain;
+
+     
+
+}
+.box{
+    height: 70px;
+    width: auto;
+    flex-grow: 1;
+    font-size: 25px;
+    background-color: black;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 20%;
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin: 7px;
+    
+    
+}
