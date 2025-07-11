@@ -1,0 +1,306 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: white;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 20px;
+}
+/*.logo {
+    height: 10px;*/
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    border: 0;
+    flex-grow: 2;
+    border-radius: 2px;
+    padding-left: 0px;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.nav-list {
+    display: flex;
+    padding-left: 80px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:80px;
+    text-decoration: none;
+    align-items: center;
+
+}
+.nav-list a:hover{
+    color: black;
+    
+}
+.nav-list  a{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.socailmedia-icons a i{
+    justify-content: space-evenly;
+    display: flex;
+    padding-left: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    display: inline;
+    text-align: center;
+    flex-direction: row;
+    
+
+}
+
+.btn{
+    
+    font-size: large;
+    height: 30px;
+    width: 90px;
+    padding-right: 50px;
+    border-radius: 10%;
+    text-decoration: white;
+    flex-direction: row;
+}
+.container{
+    
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin: auto;
+    margin-left: 10px;
+    height: auto;
+    /* padding-right: 500px; */
+    align-items: center;
+    border:20px;
+    background-size: contain;
+    
+}
+.pic{
+    display: flex;
+    margin:20px;
+    text-align: center;
+}
+/*
+.building{
+    
+    border: 2px solid whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-right: 500px;
+
+}*/
+
+.image{
+    height: 250px;
+    text-align: center;
+    width: 1000px;
+    background-size: contain;
+    padding-left: 500px;
+}
+.david{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    left: 0;
+    display: flex;
+    
+    
+
+}
+.Bus{
+    height: 250px;
+    
+    width:auto;
+    padding-right: 500px;
+    align-items: center;
+    justify-content: space-around;
+
+    
+
+}
+.cards{
+    display: flex;
+    height: auto;
+    width: auto;
+    margin: 0;
+    margin-left: 50px;
+    justify-content: space-around;
+    border: 1px solid whitesmoke;
+}
+.travel{
+    margin:30px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+    padding-bottom: 20px;
+}
+.tour{
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+    padding-top: 60px;
+    text-align: left;
+    padding-right: 100px;
+    
+    
+}
+.technology{
+    margin: 30px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    justify-content:space-around;
+    display: flex;
+    font-size: 15px;
+    padding-right: 100px;
+}
+.tech{
+    justify-content: space-around;
+    height: 250px;
+    width: auto;
+    padding-top: 60px;
+    text-align: left;
+    padding-right: 100px;
+}
+.h4{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.select{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.flexitem{
+    background-color:white;
+    padding: 10px;
+    margin: 20px;
+    padding-left: 50px;
+    border: 2px solid white(188, 21, 21);
+    border-radius: 10px;
+    object-fit: contain;
+}
+.pictures img{
+     width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+
+}
+.flexitem .pic .david{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    left: 0;
+}
+.photos{
+     display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.flexitem1{
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    padding-left: 50px;
+    border: 2px solid white(188, 21, 21);
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.photos img{
+     width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.flexitem1 .pic .david{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    left: 0;
+}
+.pic{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+.post{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+.Authors{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid ;
+    background-color: gray;
+}
+.Aut{
+    display: flex;
+    justify-content: space-around;
+}
+.Devid{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.AndrioDevid{
+    height: 150px;
+    width: 500px;
+    margin: 10px;
+    padding: 20px 90px ;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+    border: 2px double gray;
+    box-shadow: 10px 10px 10px rgb(87, 146, 146) ;
+
+
+}
+.h1{
+    padding-right: 200px;
+}
+
+   
+
+
