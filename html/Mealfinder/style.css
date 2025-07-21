@@ -1,0 +1,322 @@
+
+.nav{
+    background-color: orangered;
+    height: 50px;
+    width: auto;
+}
+.navlist{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+}
+.logo{
+    font-size: x-large;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: white
+}
+.icon{
+    padding-left: 80px;
+    padding-bottom: 15px;
+}
+.icon a{
+    color: white;
+}
+.header{
+    background-size: cover;
+    background-image: url(./images/header_image.1dc0f346d407fc577d16.jpg);
+    background-position: center;
+    display: flex;
+    padding-left: 80px;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+.form{
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    color:white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container input{
+    padding: 12px 20px;
+    border-radius: 25px  25px;
+    border: none;
+    width: 300px;
+    font-size: 15px;
+}
+.search{
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    background-color:rgb(255, 69, 0);
+}
+.search:hover{
+    color:orangered;
+    background-color: #fff;
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 16px;
+    color: white;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+    background-size: cover;
+    margin-left: 20px;
+}
+.beef{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px;
+   /*transition: 0.2s ease;*/
+   transition-timing-function: 0.4s;
+}
+ .v:hover{
+     transform: scale(1.04);
+     object-fit: cover;
+}
+.b1{
+    position: absolute;
+    color: white;
+    background-color: orangered;
+}
+.chicken{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px;
+}
+.icecream{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px; 
+}
+.lamb{
+   background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px; 
+}
+.miscellaneous{
+   background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 380px; 
+ 
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:30px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.pasta{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px; 
+}
+.pork{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px;  
+   padding-top: 20px;
+}
+.seafood{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px;  
+   padding-top: 20px;
+}
+.side{
+  background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px;    
+}
+.starter{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px;  
+}
+.container4{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:30px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.vegan{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px; 
+}
+.v{
+    height: 250px;
+    width: 270px;
+}
+.vegetarian{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px;
+}
+.breakfast{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px; 
+}
+.goat{
+    background-color: white;
+    position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px; 
+}
+@media screen and (max-width:1000px){
+    .container2{
+        display: flex;
+    }
+}
+.container5{
+    border: 1px solid orangered;
+    margin:30px auto;
+    padding: 20px;
+    padding-right: 20px;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.container5 h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.container5 h6{
+    margin: 0;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #444;
+    text-align: justify;
+    font-family:Arial,  sans-serif;
+}
+.container6{
+    padding-left: 250px;
+}
+.container7{
+    padding-left: 250px;
+    text-decoration: underline orangered;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.meals{
+   background-color: white;
+   position: relative;
+   box-shadow:wheat 0px 5px 15px;
+   width: 350px;  
+}
+.container8{
+    padding-left: 150px;
+    text-decoration: underline orangered;
+    padding: 20px;
+}
+.container8 h1{
+    border-bottom: 2px solid orangered;
+    width: fit-content;
+    margin-bottom: 20px;
+    color: #444;
+}
+.container9{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 20px auto;
+    padding-left: 150px;
+    background-color: white;
+    box-shadow: -3px 8px -5px 15px wheat;
+    
+
+}
+.img{
+    flex: 1 1 40%;
+    padding: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+    background-size: cover;
+}
+.i1{
+
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+.detalis{
+    flex: 1 1 60%;
+    padding: 10px;
+    padding-right: 60%;
+    
+}
+.detalis h1{
+    color: black;
+    font-size: 20px;
+}
+
+
+.tags span {
+
+    background-color:#ccc;
+    color: #000;
+    padding: 4px 10px;
+    margin: 4px 4px 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.ingredients {
+   background-color: #d35400;
+    color: white;
+    padding: 15px;
+    display:inline-table;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.ingredients ul{
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+.ingredients ul li{
+    margin-bottom: 6px;
+}
