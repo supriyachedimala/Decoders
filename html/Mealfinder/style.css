@@ -47,6 +47,11 @@
     justify-content: center;
     margin-bottom: 20px;
 }
+.container1{
+    padding-left: 150px;
+    text-decoration: 1px solid orangered;
+    padding: 20px;
+}
 .container input{
     padding: 12px 20px;
     border-radius: 25px  25px;
@@ -71,6 +76,7 @@ h1{
 p{
     font-size: 16px;
     color: white;
+
 }
 .container2{
     display: grid;
@@ -247,29 +253,30 @@ p{
 }
 .container8{
     padding-left: 150px;
-    text-decoration: underline orangered;
+    text-decoration: 1px solid orangered;
     padding: 20px;
 }
 .container8 h1{
-    border-bottom: 2px solid orangered;
+    border-bottom: 1px solid orangered;
     width: fit-content;
     margin-bottom: 20px;
     color: #444;
 }
 .container9{
     display: flex;
-    flex-wrap: wrap;
-
+    align-items: center;
     margin: 20px auto;
-    padding-left: 150px;
+    padding-left: 100px;
     background-color: white;
     box-shadow: -3px 8px -5px 15px wheat;
     
 
 }
 .img{
-    flex: 1 1 40%;
+    height: 500px;
+    width: 500px;
     padding: 10px;
+    padding-left: 100px;
     max-width: 100%;
     border-radius: 5px;
     background-size: cover;
@@ -279,16 +286,20 @@ p{
     background-size: cover;
     height: 100%;
     width: auto;
+    padding-left: 180px;
 }
-.detalis{
-    flex: 1 1 60%;
+.details{
+    margin-left: 300px;
     padding: 10px;
-    padding-right: 60%;
-    
+    padding-right: 500px;
 }
-.detalis h1{
+.details h1{
     color: black;
-    font-size: 20px;
+    font-size: 15px;
+}
+.name{
+    color: #d35400;
+    font-size: 25px;
 }
 
 
@@ -307,16 +318,22 @@ p{
 .ingredients {
    background-color: #d35400;
     color: white;
+    display: inline-table;
+    margin-bottom:20px;
     padding: 15px;
-    display:inline-table;
     border-radius: 10px;
     margin-top: 15px;
 }
-.ingredients ul{
+.ingredients-grid{
     list-style-type: none;
+    display:table;
     padding: 0;
+    margin: 0;
+    padding-right: 30px;
     color: white;
+    height: 50px;
 }
-.ingredients ul li{
+.ingredients-grid li{
     margin-bottom: 6px;
+    display: table;
 }
