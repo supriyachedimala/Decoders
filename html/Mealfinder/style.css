@@ -207,11 +207,145 @@ p{
    box-shadow:wheat 0px 5px 15px;
    width: 350px; 
 }
-@media screen and (max-width:1000px){
-    .container2{
-        display: flex;
+/* Tablet view (width: 1024px and below) */
+@media (max-width: 1024px) {
+    .navlist {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    .icon {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .container2,
+    .container3,
+    .container4 {
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .container input {
+        width: 70%;
+    }
+
+    .v {
+        width: 270px;
+        height: 250px;
+    }
+
+    .logo {
+        padding-left: 0;
+        padding-bottom: 5px;
     }
 }
+
+/* Mobile view (width: 768px and below) */
+@media (max-width: 768px) {
+    .navlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container2,
+    .container3,
+    .container4 {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .v {
+        width: 270px;
+        height: 250px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container input {
+        width: 90%;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Small mobile view (width: 480px and below) */
+@media (max-width: 480px) {
+    .container2,
+    .container3,
+    .container4 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .chicken,
+    .icecream,
+    .lamb,
+    .miscellaneous,
+    .pasta,
+    .pork,
+    .seafood,
+    .side,
+    .starter,
+    .vegan,
+    .vegetarian,
+    .breakfast,
+    .goat,
+    .beef {
+        width: 270px;
+    }
+
+    .v {
+        width: 270px;
+        height: 250px;
+    }
+
+    .nav {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .search {
+        height: 40px;
+    }
+
+    .container input {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+
+/**VEGETARIAN CSS**/
+
 .container5{
     border: 1px solid orangered;
     margin:30px auto;
@@ -251,14 +385,92 @@ p{
    box-shadow:wheat 0px 5px 15px;
    width: 350px;  
 }
+/* Tablet view (≤1024px) */
+@media (max-width: 1024px) {
+    .container5 {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .container6,
+    .container7 {
+        padding-left: 50px;
+    }
+
+    .container7 {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+    }
+}
+
+/* Mobile view (≤768px) */
+@media (max-width: 768px) {
+    .container5 {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .container5 h1 {
+        font-size: 28px;
+    }
+
+    .container5 h6 {
+        font-size: 18px;
+    }
+
+    .container6,
+    .container7 {
+        padding-left: 20px;
+    }
+
+    .container7 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .meals {
+        width: 270px;
+    }
+}
+
+/* Small mobile view (≤480px) */
+@media (max-width: 480px) {
+    .container5 {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .container5 h1 {
+        font-size: 24px;
+    }
+
+    .container5 h6 {
+        font-size: 16px;
+    }
+
+    .container6,
+    .container7 {
+        padding-left: 10px;
+    }
+
+    .container7 {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+
+    .meals {
+        width: 100%;
+    }
+}
+
+/**Meals**/
 .container8{
     padding-left: 150px;
-    text-decoration: 1px solid orangered;
     padding: 20px;
 }
 .container8 h1{
-    border-bottom: 1px solid orangered;
     width: fit-content;
+    padding-left: 350px;
     margin-bottom: 20px;
     color: #444;
 }
@@ -267,7 +479,7 @@ p{
     align-items: center;
     margin: 20px auto;
     padding-left: 100px;
-    background-color: white;
+    background-color: whitesmoke
     box-shadow: -3px 8px -5px 15px wheat;
     
 
