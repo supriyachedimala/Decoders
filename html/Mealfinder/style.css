@@ -686,7 +686,169 @@ a {
   margin-right: 10px;
   margin-top: 5px;
 }
+/*responsive*/
 
+/* Large tablets and down */
+@media (max-width: 1024px) {
+  .container8 {
+    padding: 15px;
+    padding-left: 40px;
+  }
+
+  .container8 h1 {
+    padding-left: 0;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .image-section img {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+
+  .details-section {
+    width: 100%;
+  }
+
+  .u {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .s {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 30px;
+    padding-right: 40px;
+  }
+
+  .container9 {
+    padding-left: 80px;
+  }
+
+  .container10 {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 90%;
+  }
+}
+
+/* Tablets and small devices */
+@media (max-width: 768px) {
+  .container8 {
+    padding: 10px;
+    padding-left: 20px;
+  }
+
+  .container8 h1 {
+    font-size: 24px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .container {
+    padding: 15px;
+    margin: 10px;
+    box-shadow: none;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .u {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .s {
+    padding-right: 10px;
+    column-gap: 20px;
+  }
+
+  .container9,
+  .container10 {
+    padding-left: 0;
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  .container10 {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .ingredients-box {
+    padding: 10px;
+  }
+
+  .ingredients-box h4 {
+    font-size: 18px;
+  }
+
+  .tag {
+    font-size: 12px;
+  }
+
+  .c {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 13px;
+  }
+
+  .instructions li {
+    font-size: 14px;
+  }
+}
+
+/* Very small devices (phones under 480px) */
+@media (max-width: 480px) {
+  .container8 {
+    padding: 5px;
+  }
+
+  .container8 h1 {
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .image-section img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .u,
+  .s {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .container10 {
+    padding: 10px;
+  }
+
+  .ingredients-box {
+    font-size: 14px;
+  }
+
+  .instructions li {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
 
 
 
